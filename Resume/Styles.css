@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100..900&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:wght@200&family=Ojuju:wght@200..800&family=Poppins:wght@100&family=Truculenta:opsz,wght@12..72,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.main{
+    border: 5px solid #14213d;
+    width: 40vw;
+    min-height: 90vh;
+    margin: 25px auto;
+    background-color: #000;
+    
+}
+
+/*NAME*/
+.name{
+    text-align: center;
+}
+
+.name h1{
+    font-size: 2.8em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+}
+.name p{
+    font-size: 0.9em;
+    color: #F6F5F5;
+
+}
+
+/*SUmmary*/
+.summary h3 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #F6F5F5;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+}
+.summary p{
+    padding-left: 10px;
+    color: #edede9;
+    font-weight: lighter;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-size: 0.8;
+}
+
+/*Technical Skills*/
+.technicalskills h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #F6F5F5;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+}
+
+.technicalskills h4{
+    font-size: 0.9em;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    color: #F6F5F5;
+} 
+
+.technicalskills p{
+    padding-left: 10px;
+    color: #edede9;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-size: 0.8;
+
+}
+
+/*Eduaction*/
+.education h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #F6F5F5;
+    font-size: 1.6em;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+}
+
+.education p{
+    padding-left: 10px;
+    color: #edede9;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-size: 0.8;
+}
+
+/*Certification*/
+
+.certifications h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #F6F5F5;
+    font-size: 1.6em;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+}
+
+ul {
+    padding-left: 18px;
+    color: #edede9;
+    font-size: 0.8;
+    font-family: "GFS Neohellenic", sans-serif;
+}
+
+/*personal detail*/
+.personal h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #F6F5F5;
+    font-size: 1.6em;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+}
+
+.detail{
+    padding-left: 10px;
+    color: #edede9;
+    font-size: 0.8;
+    font-family: "GFS Neohellenic", sans-serif;
+}
+
+/*Declaration*/
+
+.dec h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #F6F5F5;
+    font-size: 1.6em;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+}
+
+.dec p{
+    padding-left: 10px;
+    color: #edede9;
+    font-size: 0.8;
+    font-family: "GFS Neohellenic", sans-serif;
+}
