@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100..900&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:wght@200&family=Ojuju:wght@200..800&family=Poppins:wght@100&family=Truculenta:opsz,wght@12..72,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px solid #dad7cd;
+    background-color: #f1faee;
+    border-radius: 7px;
+    min-height: 70vh;
+    width: 20vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+img{
+    margin: 9px;
+    border-radius: 8px ;
+    width: 40vh; 
+}
+
+.box{
+    margin: 5px;
+    display: inline-block;
+    border-radius: 15px;
+    width: 8vh;
+    text-align: center;
+    border: 2px solid #ccd5ae;
+    font-family: "Truculenta", sans-serif;
+}
+
+.box:hover{
+    background-color: #e9c46a;
+}
+
+.heading{
+    font-size: 0.9em;
+    font-family: "Truculenta", sans-serif;
+    padding-left: 10px;
+}
+
+.heading p{
+    padding-top: 5px;
+}
+
+.button{
+    position: relative;
+    left: 60px;
+    margin:20px;
+    border-radius: 15px;
+    background-color: #8ecae6;
+    color: #000;
+    font-weight: bolder;
+    width: 15vh;
+    text-align: center;
+    border: 2px solid #dad7cd;
+    font-family: "Truculenta", sans-serif;
+}
