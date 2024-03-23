@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100..900&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:wght@200&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Poppins:wght@100&family=Pragati+Narrow:wght@400;700&family=Quicksand:wght@300..700&family=Truculenta:opsz,wght@12..72,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+   --bgcolor: #780000;
+   --color:#fdf0d5;
+   --secbgcolor:hsl(278, 35%, 78%);
+   --seccolor:#003049;
+   --ahover:#22223b;
+   --secahover:#edf2f4;
+   --font:"Oswald", sans-serif;
+}
+
+nav{
+    background-color: var(--bgcolor);
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+ li a {
+    text-decoration: none;
+    color: var(--color);
+    font-size: 1.5rem;
+    font-family: var(--font);
+ }
+
+ a:hover{
+    color: var(--ahover);
+ }
+
+ @media only screen and (max-width:455px)
+ {
+    nav{
+        background-color: var(--secbgcolor);
+        text-align: center;
+    }
+    li a {
+        text-decoration: none;
+        color: var(--seccolor);
+        font-size: 1.5rem;
+        font-family: "Oswald", sans-serif;
+     }
+     a:hover{
+        color: var(--secahover);
+     }
+ }
