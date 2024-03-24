@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Inline+Text:wght@100..900&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:wght@200&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Poppins:wght@100&family=Pragati+Narrow:wght@400;700&family=Quicksand:wght@300..700&family=Truculenta:opsz,wght@12..72,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bgcolor:##e9ecef;
+    --color:#003049 ;
+    --font:"Bebas Neue", sans-serif;
+}
+.container{
+    border: 1px solid #FBFBFB;
+    border-radius: 10px ;
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    background-color:var(--bgcolor) ;
+}
+
+h1{
+    font-size: 4rem;
+    color:var(--color) ;
+    text-transform: uppercase;
+    margin: 5px;
+    font-family: var(--font);
+}
+
+img{
+    float: right;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+h4{
+    font-size: 0.7rem;
+    color: var(--color);
+}
+
+#img2{
+    clear: both;
+    float: left;
+}
+
