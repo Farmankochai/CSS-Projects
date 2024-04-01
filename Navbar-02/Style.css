@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Big+Shoulders+Inline+Text:wght@100..900&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:wght@200&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Poppins:wght@100&family=Pragati+Narrow:wght@400;700&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Truculenta:opsz,wght@12..72,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #edede9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eaf4f4;
+  box-shadow: 28px 28px 56px #bebebe, -28px -28px 56px #ffffff;
+}
+
+.logo img {
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  margin-top: 27px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(0.3rem, 0.2937rem + 1.2556vw, 1rem);
+  font-weight: 400;
+}
+
+a:hover {
+  color: #484686;
+}
