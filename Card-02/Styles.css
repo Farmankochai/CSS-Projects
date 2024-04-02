@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+    --bg:#fefae0;
+    --font: myfont;
+    --secfont:sans-serif;
+}
+@font-face {
+  font-family: myfont;
+  src: url(./Assets/heebo.ttf);
+}
+
+body {
+  background-image: radial-gradient(
+      circle at 99% 33%,
+      hsla(235, 0%, 48%, 0.03) 0%,
+      hsla(235, 0%, 48%, 0.03) 37%,
+      transparent 37%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 46% 16%,
+      hsla(235, 0%, 48%, 0.03) 0%,
+      hsla(235, 0%, 48%, 0.03) 43%,
+      transparent 43%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 99% 25%,
+      hsla(235, 0%, 48%, 0.03) 0%,
+      hsla(235, 0%, 48%, 0.03) 22%,
+      transparent 22%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 57% 88%,
+      hsla(235, 0%, 48%, 0.03) 0%,
+      hsla(235, 0%, 48%, 0.03) 86%,
+      transparent 86%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 82% 78%,
+      hsla(235, 0%, 48%, 0.03) 0%,
+      hsla(235, 0%, 48%, 0.03) 22%,
+      transparent 22%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250vh;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cards {
+  background-color: var(--bg);
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.cards img {
+  border-radius: 10px;
+}
+
+.card1 button {
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px;
+  background-color: #000814;
+  font-family: var(--secfont);
+  font-size: 0.7rem;
+}
+.card2 button {
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px;
+  background-color: #bc6013;
+  font-family: var(--secfont);
+  font-size: 0.8rem;
+}
+.card3 button {
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px;
+  background-color: #888888;
+  font-family: var(--secfont);
+  font-size: 0.8rem;
+}
+
+.cards button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.cards h1 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: var(--font);
+  font-weight: lighter;
+}
+
+.cards p {
+  font-size: 0.6rem;
+  margin-top: 7px;
+  margin-left: 10px;
+  font-family: var(--secfont);
+}
+
+.by {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.name {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: var(--secfont);
+}
+.name h4 {
+  font-size: 0.6rem;
+}
+.name h6 {
+  font-size: 0.6rem;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width:945px)
+{
+    .container{
+        margin-top: 50px;
+    }
+}
