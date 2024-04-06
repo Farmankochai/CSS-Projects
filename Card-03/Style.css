@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+    font-family: myfont;
+    src: url(Orstavic\ DEMO.otf);
+}
+@font-face{
+    font-family: myfonttwo;
+    src: url(OVSoge-Regular.otf);
+}
+:root {
+  --bg: radial-gradient(
+      circle at 40% 91%,
+      rgba(251, 251, 251, 0.04) 0%,
+      rgba(251, 251, 251, 0.04) 50%,
+      rgba(229, 229, 229, 0.04) 50%,
+      rgba(229, 229, 229, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 66% 97%,
+      rgba(36, 36, 36, 0.04) 0%,
+      rgba(36, 36, 36, 0.04) 50%,
+      rgba(46, 46, 46, 0.04) 50%,
+      rgba(46, 46, 46, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 86% 7%,
+      rgba(40, 40, 40, 0.04) 0%,
+      rgba(40, 40, 40, 0.04) 50%,
+      rgba(200, 200, 200, 0.04) 50%,
+      rgba(200, 200, 200, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 15% 16%,
+      rgba(99, 99, 99, 0.04) 0%,
+      rgba(99, 99, 99, 0.04) 50%,
+      rgba(45, 45, 45, 0.04) 50%,
+      rgba(45, 45, 45, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 75% 99%,
+      rgba(243, 243, 243, 0.04) 0%,
+      rgba(243, 243, 243, 0.04) 50%,
+      rgba(37, 37, 37, 0.04) 50%,
+      rgba(37, 37, 37, 0.04) 100%
+    ),
+    linear-gradient(90deg, rgb(34, 222, 237), rgb(135, 89, 215));
+    --fontcolor:#181818;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.card {
+  background: var(--bg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.card {
+    transform: perspective(1) scaleZ(1) rotateX(0deg);
+    transition: transform 0.5s ease;
+  }
+  .container:hover .card {
+    transform: perspective(1000px) scaleZ(2) rotateX(45deg);
+  
+  }
+.card {
+  border: 1px solid #37CAD9;
+  border-radius: 10px;
+  width: 530px;
+  height: 280px;
+box-shadow:  20px 20px 60px #7f7ac4,
+-20px -20px 60px #aba4ff;
+}
+
+
+img{
+    display: flex;
+    margin-left: 30px;
+}
+
+#chip{
+    margin-left: 50px;
+}
+
+h1{
+    margin-top: 35px;
+    margin-left: 40px;
+    color: #262626;
+    font-size: clamp(1rem, 0.9848rem + 3.0493vw, 2.7rem);
+    font-family: myfont;
+}
+
+.name{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  margin-left: 40px;
+  justify-content: space-between;
+  color: #1a1a1a;
+  font-size: clamp(0.4rem, 0.3946rem + 1.0762vw, 1rem);
+  font-family: myfonttwo;
+}
+
+#date{
+    position: relative;
+    bottom: 12px;
+    margin-right: 200px;
+    font-family: myfont;
+    font-size: clamp(1rem, 0.9865rem + 2.6906vw, 2.5rem);
+}
+
