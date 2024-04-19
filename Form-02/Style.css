@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  --color: #000000;
+  --seccolor: #000000a0;
+  --main-fontsize: clamp(1.2rem, 1.1839rem + 3.2287vw, 3rem);
+  --sec-fontsize: clamp(0.3rem, 0.2964rem + 0.7175vw, 0.7rem);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 99vh;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: var(--font);
+}
+
+.form h1 {
+  font-size: var(--main-fontsize);
+}
+#first-p {
+  font-size: var(--sec-fontsize);
+  margin-bottom: 20px;
+  color: var(--seccolor);
+}
+
+form {
+  margin-bottom: 30px;
+}
+label {
+  font-size: var(--sec-fontsize);
+}
+
+input {
+  font-size: clamp(0.5rem, 0.4928rem + 1.435vw, 1.3rem);
+  border: 1px solid var(--color);
+}
+.signed-in {
+  margin-top: 5px;
+  font-size: var(--sec-fontsize);
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  width: 255px;
+  height: 30px;
+  font-size: 0.8rem;
+  font-family: var(--font);
+  cursor: pointer;
+}
+
+#sign-in {
+  background-color: var(--color);
+  color: #fff;
+  border: 2px solid var(--color);
+}
+
+#sign-up {
+  margin-top: 10px;
+  font-size: var(--sec-fontsize);
+}
+
+a {
+  text-decoration: none;
+  color: var(--seccolor);
+}
+
+.image img {
+  width: 450px;
+}
+
+@media only screen and (max-width: 780px) {
+  .image img {
+    width: 350px;
+  }
+}
